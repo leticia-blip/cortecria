@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corte & Cria - Artes Digitais</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; }
+    header { background: linear-gradient(135deg, #ff69b4, #6a5acd); color: white; padding: 20px; text-align: center; }
+    h1 { margin: 0; font-size: 2.5em; }
+    nav a { margin: 0 15px; color: white; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    .galeria { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; padding: 20px; }
+    .galeria img { width: 100%; border-radius: 12px; box-shadow: 0px 2px 5px rgba(0,0,0,0.2); transition: 0.3s; }
+    .galeria img:hover { transform: scale(1.05); }
+    footer { background: #222; color: white; text-align: center; padding: 10px; margin-top: 20px; }
+
+    /* Estilo para botões */
+    .btn {
+      display:inline-block;
+      font-weight:bold;
+      padding:12px 25px;
+      border-radius:30px;
+      text-decoration:none;
+      box-shadow:0px 3px 6px rgba(0,0,0,0.2);
+      transition:0.3s;
+      margin: 5px;
+    }
+    .btn:hover { opacity: 0.85; }
+
+    .btn-email { background:#444; color:white; }
+    .btn-instagram { background:#E1306C; color:white; }
+    .btn-facebook { background:#4267B2; color:white; }
+    .btn-whatsapp { background:#25D366; color:white; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎨 Corte & Cria</h1>
+    <p>Artes Digitais | Criatividade sem limites</p>
+    <nav>
+      <a href="#galeria">Galeria</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Galeria -->
+  <section id="galeria" class="galeria">
+    <img src="imagens/arte1.jpg" alt="Arte digital 1">
+    <img src="imagens/arte2.jpg" alt="Arte digital 2">
+    <img src="imagens/arte3.jpg" alt="Arte digital 3">
+    <img src="imagens/arte4.jpg" alt="Arte digital 4">
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" style="padding:20px; text-align:center;">
+    <h2>Sobre o Corte & Cria</h2>
+    <p>O Corte & Cria nasceu da paixão por arte digital, misturando cores, formas e ideias únicas para transformar criatividade em imagens inesquecíveis.</p>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" style="padding:20px; text-align:center;">
+    <h2>Contato</h2>
+    <p>Clique nos botões abaixo para falar conosco:</p>
+    <p>
+      <a href="mailto:contato@cortecria.com" class="btn btn-email">📩 Email</a>
+      <a href="https://www.instagram.com/cortecria" target="_blank" class="btn btn-instagram">📷 Instagram</a>
+      <a href="https://www.facebook.com/groups/2172203809663750?locale=pt_BR" target="_blank" class="btn btn-facebook">👥 Grupo no Facebook</a>
+      <a href="https://wa.me/5500000000000" target="_blank" class="btn btn-whatsapp">💬 WhatsApp</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Corte & Cria - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
